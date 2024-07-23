@@ -1,6 +1,7 @@
 "use client";
 
 import clsx from "clsx";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Navigation() {
@@ -26,9 +27,9 @@ export default function Navigation() {
         </div>
         <ul className="hidden lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
           <li>
-            <a className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#">
+            <Link className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#about-me">
               Sobre mí
-            </a>
+            </Link>
           </li>
           <li className="text-gray-300">
             <svg
@@ -47,9 +48,9 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm text-teal-500 dark:text-teal-300 font-bold" href="#">
+            <Link className="text-sm text-teal-500 dark:text-teal-300 font-bold" href="#projects">
               Proyectos
-            </a>
+            </Link>
           </li>
           <li className="text-gray-300">
             <svg
@@ -68,9 +69,9 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#">
+            <Link className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#experience">
               Experiencia
-            </a>
+            </Link>
           </li>
           <li className="text-gray-300">
             <svg
@@ -89,9 +90,51 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <a className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#">
+            <Link className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#education">
+              Educación
+            </Link>
+          </li>
+          <li className="text-gray-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              className="w-4 h-4 current-fill"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+              />
+            </svg>
+          </li>
+          <li>
+            <Link className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#certifications">
+              Certificaciones
+            </Link>
+          </li>
+          <li className="text-gray-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              className="w-4 h-4 current-fill"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+              />
+            </svg>
+          </li>
+          <li>
+            <Link className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#contact">
               Contacto
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -132,44 +175,52 @@ export default function Navigation() {
           <div>
             <ul>
               <li className="mb-1">
-                <a
+                <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#"
+                  href="#about-me" onClick={() => setIsOpen(!isOpen)}
                 >
                   Sobre mí
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
-                <a
+                <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#"
+                  href="#projects" onClick={() => setIsOpen(!isOpen)}
                 >
                   Proyectos
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
-                <a
+                <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#"
+                  href="#experience" onClick={() => setIsOpen(!isOpen)}
                 >
                   Experiencia
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
-                <a
+                <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#"
+                  href="#education" onClick={() => setIsOpen(!isOpen)}
                 >
                   Educación
-                </a>
+                </Link>
               </li>
               <li className="mb-1">
-                <a
+                <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#"
+                  href="#certifications" onClick={() => setIsOpen(!isOpen)}
+                >
+                  Certificaciones
+                </Link>
+              </li>
+              <li className="mb-1">
+                <Link
+                  className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
+                  href="#contact" onClick={() => setIsOpen(!isOpen)}
                 >
                   Contacto
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

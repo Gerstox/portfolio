@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-white">
+    <html lang="en" className="bg-white" style={{scrollBehavior:'smooth'}}>
       <body className={`${orbitron.className}`}>{children}</body>
     </html>
   );

@@ -6,7 +6,7 @@ import { TfiWorld } from "react-icons/tfi";
 
 export default function Projects() {
   return (
-    <section id="education" className="bg-gray-100 dark:bg-gray-800 w-full">
+    <section id="projects" className="bg-gray-100 dark:bg-gray-800 w-full">
       <div className="flex flex-col justify-center items-center p-4 mt-10 mb-2">
         <FaTasks className="text-5xl text-teal-500 dark:text-teal-300 mb-4" />
         <h2 className="text-xl dark:text-white font-semibold mb-10">{`Proyectos`}</h2>
