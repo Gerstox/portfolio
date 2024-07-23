@@ -160,6 +160,14 @@ export default function Navigation() {
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
                   href="#"
                 >
+                  Educación
+                </a>
+              </li>
+              <li className="mb-1">
+                <a
+                  className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
+                  href="#"
+                >
                   Contacto
                 </a>
               </li>
