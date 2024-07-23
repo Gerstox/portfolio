@@ -4,6 +4,7 @@ import { MdAlternateEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -17,11 +18,11 @@ export default function Contact() {
         >
           <div className="flex gap-4">
             <MdAlternateEmail className="text-3xl text-teal-500 dark:text-teal-300" />
-            <span className="text-lg">{`pinedagerson1993@gmail.com`}</span>
+            <Link href={'mailto:pinedagerson1993@gmail.com'} className="text-lg">{`pinedagerson1993@gmail.com`}</Link>
           </div>
           <div className="flex gap-4">
             <FaPhone className="text-2xl text-teal-500 dark:text-teal-300" />
-            <span className="text-lg">{`+58 (0412) 5278897`}</span>
+            <Link target="_blank" href={'https://wa.me/584125278897'} className="text-lg">{`+58 (0412) 5278897`}</Link>
           </div>
         </div>
       </div>
