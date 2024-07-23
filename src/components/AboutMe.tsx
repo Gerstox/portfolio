@@ -4,7 +4,7 @@ import { FaCode } from "react-icons/fa";
 
 export default function AboutMe() {
   return (
-    <section id="about-me" className="mt-20">
+    <section id="about-me">
       <div className="flex flex-col justify-center items-center mb-10">
         <FaCode className="text-5xl text-teal-500 dark:text-teal-300 mb-4" />
         <h1 className="text-3xl mb-4 font-semibold dark:text-gray-300">

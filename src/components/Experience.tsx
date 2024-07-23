@@ -10,9 +10,9 @@ export default function Experience() {
         <MdOutlineWorkOutline className="text-5xl text-teal-500 dark:text-teal-300 mb-4" />
         <h2 className="text-xl dark:text-gray-100 font-semibold mb-4">{`Experiencia`}</h2>
         <article className={`${roboto.className} antialiased mx-4 max-w-screen-lg`}>
-          <ol className="relative text-gray-500 border-s border-gray-200 dark:border-gray-700 dark:text-gray-400 z-0">
+          <ol className="relative text-gray-900 border-s border-gray-200 dark:border-gray-700 dark:text-gray-400 z-0">
             <li className="mb-10 ms-6">
-              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:text-teal-300 dark:bg-gray-900">
+              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 text-teal-500 dark:text-teal-300 dark:bg-gray-900">
                 <MdWorkHistory />
               </span>
               <h2 className="font-semibold leading-tight">{`Desarrollador Full Stack`}</h2>
@@ -30,7 +30,7 @@ export default function Experience() {
               </div>
             </li>
             <li className="mb-10 ms-6">
-              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:text-teal-300 dark:bg-gray-900">
+              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 text-teal-500 dark:text-teal-300 dark:bg-gray-900">
                 <MdWork />
               </span>
               <h2 className="font-semibold leading-tight">{`Desarrollador Full Stack`}</h2>
@@ -48,7 +48,7 @@ export default function Experience() {
               </div>
             </li>
             <li className="mb-10 ms-6">
-              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:text-teal-300 dark:bg-gray-900">
+              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 text-teal-500 dark:text-teal-300 dark:bg-gray-900">
                 <MdWork />
               </span>
               <h2 className="font-semibold leading-tight">{`Desarrollador Front End`}</h2>
@@ -63,7 +63,7 @@ export default function Experience() {
               </div>
             </li>
             <li className="ms-6">
-              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:text-teal-300 dark:bg-gray-900">
+              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 text-teal-500 dark:text-teal-300 dark:bg-gray-900">
                 <MdWork />
               </span>
               <h2 className="font-semibold leading-tight">{`Desarrollador Full Stack`}</h2>
@@ -77,7 +77,7 @@ export default function Experience() {
               </div>
             </li>
             <li className="ms-6">
-              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:text-teal-300 dark:bg-gray-900">
+              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 text-teal-500 dark:text-teal-300 dark:bg-gray-900">
                 <MdWork />
               </span>
               <h2 className="font-semibold leading-tight">{`Analista Programador`}</h2>
@@ -91,7 +91,7 @@ export default function Experience() {
               </div>
             </li>
             <li className="ms-6">
-              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:text-teal-300 dark:bg-gray-900">
+              <span className="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 text-teal-500 dark:text-teal-300 dark:bg-gray-900">
                 <MdWork />
               </span>
               <h2 className="font-semibold leading-tight">{`Desarrollador Full Stack`}</h2>
