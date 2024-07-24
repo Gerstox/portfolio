@@ -1,0 +1,39 @@
+{
+    "LocaleSwitcher": {
+    "label": "Cambiar lenguaje",
+    "locale": "{locale, select, es {🇪🇸 Español} en {🇺🇸 English} other {Desconocido}}"
+  },
+  "Navigation": {
+    "about": "Sobre mi",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "certifications": "Certificaciones",
+    "contact": "Contacto"
+  },
+
+  "AboutMeComponent": {
+    "greeting": "Hola! soy ",
+    "paragraph": {
+      "one": "💻 Soy ingeniero en informática con más de 5 años de",
+      "two": " experiencia ",
+      "three": "como desarrollador, he estado involucrado en todo el ciclo de vida del desarrollo de software.",
+      "four": "🔍 Aquí podrás visualizar algunos de los",
+      "five": "proyectos",
+      "six": "en los que he estado involucrado a lo largo de mi trayectoria profesional.",
+      "seven": "🛠 He trabajado con diversos lenguajes de programación tales como",
+      "eight": " Java, Javascript, PHP, C# y Python y mucho más ",
+      "nine": ", entre mis habilidades se encuentra la capacidad de adaptarme a los cambios de la industria."
+    },
+    "image": {
+      "alt": "Foto de Gerson Pineda"
+    }
+  },
+
+  "DownloadCVComponent": {
+    "button": {
+        "text": "Descargar CV",
+        "tooltip": "Descargar CV"
+    }
+  }
+}

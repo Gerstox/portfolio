@@ -1,11 +1,13 @@
 "use client";
 
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useState } from "react";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations("Navigation");
 
   return (
     <>
@@ -27,8 +29,11 @@ export default function Navigation() {
         </div>
         <ul className="hidden lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
           <li>
-            <Link className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#about-me">
-              Sobre mí
+            <Link
+              className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300"
+              href="#about-me"
+            >
+              {t("about")}
             </Link>
           </li>
           <li className="text-gray-300">
@@ -48,8 +53,11 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <Link className="text-sm text-teal-500 dark:text-teal-300 font-bold" href="#projects">
-              Proyectos
+            <Link
+              className="text-sm text-teal-500 dark:text-teal-300 font-bold"
+              href="#projects"
+            >
+              {t("projects")}
             </Link>
           </li>
           <li className="text-gray-300">
@@ -69,8 +77,11 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <Link className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#experience">
-              Experiencia
+            <Link
+              className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300"
+              href="#experience"
+            >
+              {t("experience")}
             </Link>
           </li>
           <li className="text-gray-300">
@@ -90,8 +101,11 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <Link className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#education">
-              Educación
+            <Link
+              className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300"
+              href="#education"
+            >
+              {t("education")}
             </Link>
           </li>
           <li className="text-gray-300">
@@ -111,8 +125,11 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <Link className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#certifications">
-              Certificaciones
+            <Link
+              className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300"
+              href="#certifications"
+            >
+              {t("certifications")}
             </Link>
           </li>
           <li className="text-gray-300">
@@ -132,8 +149,11 @@ export default function Navigation() {
             </svg>
           </li>
           <li>
-            <Link className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300" href="#contact">
-              Contacto
+            <Link
+              className="text-sm text-gray-900 hover:text-teal-500 dark:text-teal-300 dark:hover:text-teal-300"
+              href="#contact"
+            >
+              {t("contact")}
             </Link>
           </li>
         </ul>
@@ -150,12 +170,20 @@ export default function Navigation() {
         ></div>
         <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-11/12 max-w-sm py-4 px-2 bg-white dark:bg-gray-900 border-r dark:border-none overflow-y-auto">
           <div className="flex items-center mb-8">
-            <a className="mr-auto text-3xl font-bold leading-none px-2" href="#">
-              <span className={` text-4xl text-teal-500 dark:text-teal-300 font-semibold`}>
+            <a
+              className="mr-auto text-3xl font-bold leading-none px-2"
+              href="#"
+            >
+              <span
+                className={` text-4xl text-teal-500 dark:text-teal-300 font-semibold`}
+              >
                 G
               </span>
             </a>
-            <button className="navbar-close px-2" onClick={() => setIsOpen(!isOpen)}>
+            <button
+              className="navbar-close px-2"
+              onClick={() => setIsOpen(!isOpen)}
+            >
               <svg
                 className="h-6 w-6 text-gray-900 dark:text-teal-300 cursor-pointer hover:text-gray-800"
                 xmlns="http://www.w3.org/2000/svg"
@@ -177,49 +205,55 @@ export default function Navigation() {
               <li className="mb-1">
                 <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#about-me" onClick={() => setIsOpen(!isOpen)}
+                  href="#about-me"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  Sobre mí
+                  {t("about")}
                 </Link>
               </li>
               <li className="mb-1">
                 <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#projects" onClick={() => setIsOpen(!isOpen)}
+                  href="#projects"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  Proyectos
+                  {t("projects")}
                 </Link>
               </li>
               <li className="mb-1">
                 <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#experience" onClick={() => setIsOpen(!isOpen)}
+                  href="#experience"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  Experiencia
+                  {t("experience")}
                 </Link>
               </li>
               <li className="mb-1">
                 <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#education" onClick={() => setIsOpen(!isOpen)}
+                  href="#education"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  Educación
+                  {t("education")}
                 </Link>
               </li>
               <li className="mb-1">
                 <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#certifications" onClick={() => setIsOpen(!isOpen)}
+                  href="#certifications"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  Certificaciones
+                  {t("certifications")}
                 </Link>
               </li>
               <li className="mb-1">
                 <Link
                   className="block px-2 py-4 text-sm font-semibold text-gray-900 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-gray-700 dark:bg-gray-800 hover:text-teal-500 rounded"
-                  href="#contact" onClick={() => setIsOpen(!isOpen)}
+                  href="#contact"
+                  onClick={() => setIsOpen(!isOpen)}
                 >
-                  Contacto
+                  {t("contact")}
                 </Link>
               </li>
             </ul>

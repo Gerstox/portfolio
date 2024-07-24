@@ -2,14 +2,17 @@ import { roboto } from "@/assets/fonts";
 import Image from "next/image";
 import { FaCode } from "react-icons/fa";
 import DownloadCV from "./DownloadCV";
+import { useTranslations } from "next-intl";
 
 export default function AboutMe() {
+  const t = useTranslations("AboutMeComponent");
+
   return (
     <section id="about-me">
       <div className="flex flex-col justify-center items-center mb-10">
         <FaCode className="text-5xl text-teal-500 dark:text-teal-300 mb-4" />
         <h1 className="text-3xl mb-4 font-semibold dark:text-gray-300">
-          {`Hola! soy `}
+          {t("greeting")}
           <span className="dark:text-teal-300">{`Gerson`}</span>
         </h1>
         <div className="flex flex-col items-center lg:flex-row">
@@ -17,29 +20,26 @@ export default function AboutMe() {
             className={`${roboto.className} antialiased p-4 dark:text-gray-300 max-w-screen-md`}
           >
             <p className="mb-4">
-              {`💻 Soy ingeniero en informática con más de 5 años de`}
+              {t("paragraph.one")}
               <span className="text-teal-500 dark:text-teal-300">
-                {` experiencia `}
+                {t("paragraph.two")}
               </span>
-              {`como desarrollador, he estado involucrado en todo el ciclo de vida
-                del desarrollo de software.`}
+              {t("paragraph.three")}
             </p>
             <p className="mb-4">
-              {`🔍 Aquí podrás visualizar algunos de los`}
+              {t("paragraph.four")}
               <span className="text-teal-500 dark:text-teal-300">
-                {` proyectos `}
+                {t("paragraph.five")}
               </span>
-              {`en los que he estado involucrado a lo largo de mi trayectoria
-                profesional.`}
+              {t("paragraph.six")}
             </p>
 
             <p className="mb-4">
-              {`🛠 He trabajado con diversos lenguajes de programación tales como`}
+              {t("paragraph.seven")}
               <span className="text-teal-500 dark:text-teal-300">
-                {` Java, Javascript, PHP, C# y Python y mucho más `}
+                {t("paragraph.eight")}
               </span>
-              {`, entre mis habilidades se encuentra la capacidad de adaptarme a
-                los cambios de la industria.`}
+              {t("paragraph.nine")}
             </p>
           </article>
           <div>
@@ -48,17 +48,16 @@ export default function AboutMe() {
               width={180}
               height={180}
               className="rounded-lg mb-8 block md:hidden shadow-lg dark:shadow-teal-300"
-              alt="Foto de Gerson Pineda"
+              alt={t("image.alt")}
             />
             <Image
               src="/images/avatar-1.png"
               width={240}
               height={240}
               className="rounded-lg mb-8 hidden md:block shadow-lg dark:shadow-teal-300"
-              alt="Foto de Gerson Pineda"
+              alt={t("image.alt")}
             />
-          <DownloadCV />
-
+            <DownloadCV />
           </div>
         </div>
       </div>

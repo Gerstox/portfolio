@@ -1,0 +1,40 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {🇪🇸 Spanish} en {🇺🇸 English} other {Unknown}}"
+  },
+
+  "Navigation": {
+    "about": "About me",
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+
+  "AboutMeComponent": {
+    "greeting": "Hi! I'm ",
+    "paragraph": {
+        "one": "💻 I am an informatics engineer with more than 5 years of",
+        "two": " experience ",
+        "three": "as a developer, I have been involved in the entire software development life cycle.",
+        "four": "🔍 Here you can see some of the ",
+        "five": "projects",
+        "six": "in which I have been involved throughout my professional career.",
+        "seven": "🛠 I have worked with various programming languages ​​such as",
+        "eight": " Java, Javascript, PHP, C#, Python and much more,s ",
+        "nine": ", among my skills is the ability to adapt to changes in the industry."
+    },
+    "image": {
+        "alt": "Gerson Pineda's photo"
+    }
+  },
+
+  "DownloadCVComponent": {
+    "button": {
+        "text": "Download Resume",
+        "tooltip": "Download Resume"
+    }
+  }
+}

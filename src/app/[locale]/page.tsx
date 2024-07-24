@@ -6,6 +6,7 @@ import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -13,11 +14,16 @@ export default function Home() {
       <Header />
       <AboutMe />
       <Projects />
+      <Skills />
       <Experience />
       <Education />
       <Certifications />
       <Contact />
       <Footer />
+      {/* Falta versión en Inglés */}
+      {/* Falta página de todos los proyectos */}
+      {/* Falta página de todas las certificaciones */}
+      {/* Falta desplegar en Internet Vercel o GithubPages} */}
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import DarkModeButton from "./DarkModeButton";
 import { orbitron } from "@/assets/fonts";
 import Navigation from "./Navigation";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 export default function Header() {
   return (
@@ -13,6 +14,7 @@ export default function Header() {
       <div className="flex gap-4">
         <DarkModeButton className="block lg:hidden" />
         <Navigation />
+        <LocaleSwitcher />
         <DarkModeButton className="hidden lg:block" />
       </div>
     </div>
