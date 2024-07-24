@@ -9,7 +9,7 @@ export default function Certifications() {
       id="certifications"
       className="bg-white dark:bg-gray-900 w-full"
     >
-      <div className="flex flex-col justify-center items-center p-4 mt-10">
+      <div className="flex flex-col justify-center items-center p-4 mt-10 mb-6">
         <GrCertificate className="text-5xl text-teal-500 dark:text-teal-300 mb-4" />
         <h2 className="text-xl dark:text-white font-semibold mb-4">{`Certificaciones`}</h2>
         <div className="grid lg:grid-cols-3 gap-3 lg:gap-6 max-w-screen-lg">
@@ -26,9 +26,9 @@ export default function Certifications() {
                 <span className="w-full block text-right dark:text-gray-100">{`Marzo 2024`}</span>
               </div>
             </div>
-            <div className="w-16">
+            {/* <div className="w-16">
               <MdDownload className="w-16 text-4xl text-teal-500 dark:text-teal-300 cursor-pointer" />
-            </div>
+            </div> */}
           </article>
           <article
             className={`${roboto.className} antialiased flex justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
@@ -43,9 +43,9 @@ export default function Certifications() {
                 <span className="w-full block text-right dark:text-gray-100">{`Marzo 2024`}</span>
               </div>
             </div>
-            <div className="w-16">
+            {/* <div className="w-16">
               <MdDownload className="w-16 text-4xl text-teal-500 dark:text-teal-300 cursor-pointer" />
-            </div>
+            </div> */}
           </article>
           <article
             className={`${roboto.className} antialiased flex justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
@@ -60,9 +60,9 @@ export default function Certifications() {
                 <span className="w-full block text-right dark:text-gray-100">{`Marzo 2024`}</span>
               </div>
             </div>
-            <div className="w-16">
+            {/* <div className="w-16">
               <MdDownload className="w-16 text-4xl text-teal-500 dark:text-teal-300 cursor-pointer" />
-            </div>
+            </div> */}
           </article>
           <article
             className={`${roboto.className} antialiased flex justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
@@ -77,9 +77,9 @@ export default function Certifications() {
                 <span className="w-full block text-right dark:text-gray-100">{`Febrero 2024`}</span>
               </div>
             </div>
-            <div className="w-16">
+            {/* <div className="w-16">
               <MdDownload className="w-16 text-4xl text-teal-500 dark:text-teal-300 cursor-pointer" />
-            </div>
+            </div> */}
           </article>
           <article
             className={`${roboto.className} antialiased flex justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
@@ -94,9 +94,9 @@ export default function Certifications() {
                 <span className="w-full block text-right dark:text-gray-100">{`Enero 2024`}</span>
               </div>
             </div>
-            <div className="w-16">
+            {/* <div className="w-16">
               <MdDownload className="w-16 text-4xl text-teal-500 dark:text-teal-300 cursor-pointer" />
-            </div>
+            </div> */}
           </article>
           <article
             className={`${roboto.className} antialiased lg:flex hidden justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
@@ -111,15 +111,15 @@ export default function Certifications() {
                 <span className="w-full block text-right dark:text-gray-100">{`Febrero 2024`}</span>
               </div>
             </div>
-            <div className="w-16">
+            {/* <div className="w-16">
               <MdDownload className="w-16 text-4xl text-teal-500 dark:text-teal-300 cursor-pointer" />
-            </div>
+            </div> */}
           </article>
         </div>
       </div>
-      <div className="flex justify-end px-4 mb-4">
+      {/* <div className="flex justify-end px-4 mb-4">
         <span className="text-lg dark:text-teal-300 dark:hover:text-teal-500 cursor-pointer">{`Ver más...`}</span>
-      </div>
+      </div> */}
     </section>
   );
 }

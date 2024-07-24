@@ -7,7 +7,7 @@ import { TfiWorld } from "react-icons/tfi";
 export default function Projects() {
   return (
     <section id="projects" className="bg-gray-100 dark:bg-gray-800 w-full">
-      <div className="flex flex-col justify-center items-center p-4 mt-10 mb-2">
+      <div className="flex flex-col justify-center items-center p-4 mt-10 mb-6">
         <FaTasks className="text-5xl text-teal-500 dark:text-teal-300 mb-4" />
         <h2 className="text-xl dark:text-white font-semibold mb-10">{`Proyectos`}</h2>
         <article className={`${roboto.className} antialiased max-w-screen-lg lg:pl-6 lg:pr-2`}>
@@ -64,9 +64,9 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="flex justify-end mt-4">
+          {/* <div className="flex justify-end mt-4">
             <span className="text-lg dark:text-teal-300 dark:hover:text-teal-500 cursor-pointer">{`Ver más...`}</span>
-          </div>
+          </div> */}
         </article>
       </div>
     </section>
