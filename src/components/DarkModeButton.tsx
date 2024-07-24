@@ -5,7 +5,7 @@ import { IoMoon, IoSunny } from "react-icons/io5";
 
 export default function DarkModeButton({ className }: {className: string}) {
 
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   const darkModeHandler = () => {
     setDark(!dark);

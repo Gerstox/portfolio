@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-white" style={{scrollBehavior:'smooth'}}>
-      <body className={`${orbitron.className}`}>{children}</body>
+      <body className={`${orbitron.className} dark`}>{children}</body>
     </html>
   );
 }
