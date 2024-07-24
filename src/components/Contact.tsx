@@ -26,7 +26,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-        <div className="flex gap-4 justify-center my-4">
+        <div className="flex gap-10 justify-center my-4">
           <FaGithub className="text-4xl text-teal-500 dark:text-teal-300" />
           <FaLinkedin className="text-4xl text-teal-500 dark:text-teal-300" />
         </div>

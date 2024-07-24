@@ -1,6 +1,7 @@
 import { roboto } from "@/assets/fonts";
 import Image from "next/image";
 import { FaCode } from "react-icons/fa";
+import DownloadCV from "./DownloadCV";
 
 export default function AboutMe() {
   return (
@@ -41,20 +42,24 @@ export default function AboutMe() {
                 los cambios de la industria.`}
             </p>
           </article>
-          <Image
-            src="/images/avatar-1.png"
-            width={180}
-            height={180}
-            className="rounded-lg mb-8 block md:hidden shadow-lg dark:shadow-teal-300"
-            alt="Foto de Gerson Pineda"
-          />
-          <Image
-            src="/images/avatar-1.png"
-            width={240}
-            height={240}
-            className="rounded-lg mb-8 hidden md:block shadow-lg dark:shadow-teal-300"
-            alt="Foto de Gerson Pineda"
-          />
+          <div>
+            <Image
+              src="/images/avatar-1.png"
+              width={180}
+              height={180}
+              className="rounded-lg mb-8 block md:hidden shadow-lg dark:shadow-teal-300"
+              alt="Foto de Gerson Pineda"
+            />
+            <Image
+              src="/images/avatar-1.png"
+              width={240}
+              height={240}
+              className="rounded-lg mb-8 hidden md:block shadow-lg dark:shadow-teal-300"
+              alt="Foto de Gerson Pineda"
+            />
+          <DownloadCV />
+
+          </div>
         </div>
       </div>
     </section>
