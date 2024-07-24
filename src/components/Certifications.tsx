@@ -2,8 +2,12 @@ import { roboto } from "@/assets/fonts";
 import { GrCertificate } from "react-icons/gr";
 import { SiPlatzi } from "react-icons/si";
 import { MdDownload } from "react-icons/md";
+import { useTranslations } from "next-intl";
 
 export default function Certifications() {
+
+  const t = useTranslations("CertificationsComponent");
+  const c = useTranslations("Common");
   return (
     <section
       id="certifications"
@@ -11,19 +15,19 @@ export default function Certifications() {
     >
       <div className="flex flex-col justify-center items-center p-4 mt-10 mb-6">
         <GrCertificate className="text-5xl text-teal-500 dark:text-teal-300 mb-4" />
-        <h2 className="text-xl dark:text-white font-semibold mb-4">{`Certificaciones`}</h2>
+        <h2 className="text-xl dark:text-white font-semibold mb-4">{t('title')}</h2>
         <div className="grid lg:grid-cols-3 gap-4 lg:gap-6 max-w-screen-lg">
           <article
             className={`${roboto.className} antialiased flex justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
           >
             <div className="w-full">
-              <h3 className="dark:text-teal-300 mb-4">{`Curso de Java Spring Security: Autenticación y Seguridad Web`}</h3>
+              <h3 className="dark:text-teal-300 mb-4">{t('certs.c1')}</h3>
               <div className="flex justify-between">
                 <span className="dark:text-gray-300 flex gap-4">
                   <SiPlatzi className="text-2xl text-teal-500 dark:text-teal-300" />
                   {`Platzi`}
                 </span>
-                <span className="w-full block text-right dark:text-gray-100">{`Marzo 2024`}</span>
+                <span className="w-full block text-right dark:text-gray-100">{`${c('months.march')} 2024`}</span>
               </div>
             </div>
             {/* <div className="w-16">
@@ -34,13 +38,13 @@ export default function Certifications() {
             className={`${roboto.className} antialiased flex justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
           >
             <div className="w-full">
-              <h3 className="dark:text-teal-300 mb-4">{`Curso de Java Spring Data JPA: Bases de Datos`}</h3>
+              <h3 className="dark:text-teal-300 mb-4">{t('certs.c2')}</h3>
               <div className="flex justify-between">
                 <span className="dark:text-gray-300 flex gap-4">
                   <SiPlatzi className="text-2xl text-teal-500 dark:text-teal-300" />
                   {`Platzi`}
                 </span>
-                <span className="w-full block text-right dark:text-gray-100">{`Marzo 2024`}</span>
+                <span className="w-full block text-right dark:text-gray-100">{`${c('months.march')} 2024`}</span>
               </div>
             </div>
             {/* <div className="w-16">
@@ -51,13 +55,13 @@ export default function Certifications() {
             className={`${roboto.className} antialiased flex justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
           >
             <div className="w-full">
-              <h3 className="dark:text-teal-300 mb-4">{`Curso de Java Spring`}</h3>
+              <h3 className="dark:text-teal-300 mb-4">{t('certs.c3')}</h3>
               <div className="flex justify-between">
                 <span className="dark:text-gray-300 flex gap-4">
                   <SiPlatzi className="text-2xl text-teal-500 dark:text-teal-300" />
                   {`Platzi`}
                 </span>
-                <span className="w-full block text-right dark:text-gray-100">{`Marzo 2024`}</span>
+                <span className="w-full block text-right dark:text-gray-100">{`${c('months.march')} 2024`}</span>
               </div>
             </div>
             {/* <div className="w-16">
@@ -68,13 +72,13 @@ export default function Certifications() {
             className={`${roboto.className} antialiased flex justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
           >
             <div className="w-full">
-              <h3 className="dark:text-teal-300 mb-4">{`Curso de Java SE Orientado a Objetos`}</h3>
+              <h3 className="dark:text-teal-300 mb-4">{t('certs.c4')}</h3>
               <div className="flex justify-between">
                 <span className="dark:text-gray-300 flex gap-4">
                   <SiPlatzi className="text-2xl text-teal-500 dark:text-teal-300" />
                   {`Platzi`}
                 </span>
-                <span className="w-full block text-right dark:text-gray-100">{`Febrero 2024`}</span>
+                <span className="w-full block text-right dark:text-gray-100">{`${c('months.feb')} 2024`}</span>
               </div>
             </div>
             {/* <div className="w-16">
@@ -85,13 +89,13 @@ export default function Certifications() {
             className={`${roboto.className} antialiased flex justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
           >
             <div className="w-full">
-              <h3 className="dark:text-teal-300 mb-4">{`Curso de Introducción a Java SE`}</h3>
+              <h3 className="dark:text-teal-300 mb-4">{t('certs.c5')}</h3>
               <div className="flex justify-between">
                 <span className="dark:text-gray-300 flex gap-4">
                   <SiPlatzi className="text-2xl text-teal-500 dark:text-teal-300" />
                   {`Platzi`}
                 </span>
-                <span className="w-full block text-right dark:text-gray-100">{`Enero 2024`}</span>
+                <span className="w-full block text-right dark:text-gray-100">{`${c('months.jan')} 2024`}</span>
               </div>
             </div>
             {/* <div className="w-16">
@@ -102,13 +106,13 @@ export default function Certifications() {
             className={`${roboto.className} antialiased lg:flex hidden justify-between bg-gray-100 hover:bg-gray-200 shadow-lg dark:bg-gray-800 dark:hover:bg-gray-700 p-4 rounded-lg`}
           >
             <div className="w-full">
-              <h3 className="dark:text-teal-300 mb-4">{`Curso de Java SE Persistencia de Datos`}</h3>
+              <h3 className="dark:text-teal-300 mb-4">{t('certs.c6')}</h3>
               <div className="flex justify-between">
                 <span className="dark:text-gray-300 flex gap-4">
                   <SiPlatzi className="text-2xl text-teal-500 dark:text-teal-300" />
                   {`Platzi`}
                 </span>
-                <span className="w-full block text-right dark:text-gray-100">{`Febrero 2024`}</span>
+                <span className="w-full block text-right dark:text-gray-100">{`${c('months.feb')} 2024`}</span>
               </div>
             </div>
             {/* <div className="w-16">

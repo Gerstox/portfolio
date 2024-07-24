@@ -54,7 +54,7 @@ export default function Navigation() {
           </li>
           <li>
             <Link
-              className="text-sm text-teal-500 dark:text-teal-300 font-bold"
+              className="text-sm text-teal-500 dark:text-teal-300"
               href="#projects"
             >
               {t("projects")}

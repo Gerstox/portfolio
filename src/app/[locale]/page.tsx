@@ -20,7 +20,6 @@ export default function Home() {
       <Certifications />
       <Contact />
       <Footer />
-      {/* Falta versión en Inglés */}
       {/* Falta página de todos los proyectos */}
       {/* Falta página de todas las certificaciones */}
       {/* Falta desplegar en Internet Vercel o GithubPages} */}

@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Portafolio | Gerson Pineda",
   description: "Portafolio de Gerson Pineda, desarrollado en NextJS",
+  icons: {
+    icon: '/favicon.ico'
+  }
 };
 
 export default async function RootLayout({

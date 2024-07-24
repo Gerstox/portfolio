@@ -1,15 +1,18 @@
 import { roboto } from "@/assets/fonts";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { FaTasks } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { TfiWorld } from "react-icons/tfi";
 
 export default function Projects() {
+
+  const t = useTranslations("ProjectsComponent");
   return (
     <section id="projects" className="bg-gray-100 dark:bg-gray-800 w-full">
       <div className="flex flex-col justify-center items-center p-4 mt-10 mb-6">
         <FaTasks className="text-5xl text-teal-500 dark:text-teal-300 mb-4" />
-        <h2 className="text-xl dark:text-white font-semibold mb-10">{`Proyectos`}</h2>
+        <h2 className="text-xl dark:text-white font-semibold mb-10">{t('title')}</h2>
         <article className={`${roboto.className} antialiased max-w-screen-lg lg:pl-6 lg:pr-2`}>
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="border-2 dark:border shadow-xl dark:shadow-md dark:shadow-teal-300 dark:hover:border-teal-300 hover:bg-gray-200 hover:border-gray-200 border-gray-100 rounded-lg p-6 dark:bg-gray-700">

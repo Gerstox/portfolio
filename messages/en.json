@@ -16,25 +16,115 @@
   "AboutMeComponent": {
     "greeting": "Hi! I'm ",
     "paragraph": {
-        "one": "💻 I am an informatics engineer with more than 5 years of",
-        "two": " experience ",
-        "three": "as a developer, I have been involved in the entire software development life cycle.",
-        "four": "🔍 Here you can see some of the ",
-        "five": "projects",
-        "six": "in which I have been involved throughout my professional career.",
-        "seven": "🛠 I have worked with various programming languages ​​such as",
-        "eight": " Java, Javascript, PHP, C#, Python and much more,s ",
-        "nine": ", among my skills is the ability to adapt to changes in the industry."
+      "one": "💻 I am an informatics engineer with more than 5 years of",
+      "two": " experience ",
+      "three": "as a developer, I have been involved in the entire software development life cycle.",
+      "four": "🔍 Here you can see some of the ",
+      "five": "projects",
+      "six": "in which I have been involved throughout my professional career.",
+      "seven": "🛠 I have worked with various programming languages ​​such as",
+      "eight": " Java, Javascript, PHP, C#, Python and much more,s ",
+      "nine": ", among my skills is the ability to adapt to changes in the industry."
     },
     "image": {
-        "alt": "Gerson Pineda's photo"
+      "alt": "Gerson Pineda's photo"
     }
   },
 
   "DownloadCVComponent": {
     "button": {
-        "text": "Download Resume",
-        "tooltip": "Download Resume"
+      "text": "Download Resume",
+      "tooltip": "Download Resume"
+    }
+  },
+
+  "ProjectsComponent": {
+    "title": "Projects"
+  },
+
+  "SkillsComponent": {
+    "title": "Skills",
+    "databases": "Data bases",
+    "knowledge": "Other knowledge",
+    "advanced": "Advanced",
+    "intermediate": "Intermediate"
+  },
+
+  "ExperienceComponent": {
+    "title": "Experience",
+    "fullstack": "Full Stack Developer",
+    "frontend": "Front End Developer",
+    "backend": "Back End Developer",
+    "analyst": "Programmer Analyst",
+    "freelance": {
+      "p1": "Development of microservices for bank account management applications.",
+      "p2": "Web development for streaming services such as Netflix, Disney and more.",
+      "stack": "Java, Spring Boot, ReactJS, NextJS, TailwindCSS, MySQL"
+    },
+    "rootstack": {
+      "p1": "Development of functionality for government websites using Python with Flask, PHP Legacy and Laravel.",
+      "p2": "Ecommerce development, using Python 3 with Odoo.",
+      "stack": "Python, Flask, PHP, Laravel, C#, .NET Framework Drupal, Laravel, MySQL"
+    },
+    "messangi": {
+      "p1": "Development of user interfaces for an online messaging system, using Angular and Angular Material.",
+      "stack": "Javascript, Angular, Angular Material"
+    },
+    "mobius": {
+      "p1": "Development of interfaces and business logic for the control and management system of automotive spare parts, using PHP with Laravel",
+      "stack": "PHP, Laravel, MySQL"
+    },
+    "galac": {
+      "p1": "Development and support of functionalities to the administrative accounting system",
+      "stack": "Visual Basic 6, C#, .NET Framework, Raw SQL, SQL server"
+    },
+    "binaural": {
+      "p1": "Development of an online store for a food distribution company, using Python with Odoo and OpenStreetMap.",
+      "p2": "Development of functionalities for a web application for buying and selling real estate, using Angular, NodeJS, MongoDB, Express and OpenStreetMap.",
+      "stack": "PHP, Python, Flask, Django, Odoo, OpenStreetMap, NodeJS, Express, Angular, MySQL, PostgreSQL, MongoDB"
+    }
+  },
+
+  "EducationComponent": {
+    "title": "Education",
+    "university": "Universidad Centro Occidental 'Lisandro Alvarado’",
+    "profession": "Master of Science, Computer Engineering"
+  },
+
+  "CertificationsComponent": {
+    "title": "Certifications",
+    "certs": {
+      "c1": "Java Spring Security: Authentication and Web Security",
+      "c2": "Java Spring Data JPA: Databases",
+      "c3": "Java Spring",
+      "c4": "Object Oriented Java SE Course",
+      "c5": "Java SE fundamentals",
+      "c6": "Java SE Data Persistence"
+    }
+  },
+
+  "ContactComponent": {
+    "title": "Contact",
+    "subtitle": "and social networks"
+  },
+
+  "FooterComponent": {
+    "developedby": "Developed by",
+    "rights": "© 2024 All rigths reserved"
+  },
+
+  "Common": {
+    "months": {
+      "currently": "Currently",
+      "may": "May",
+      "march": "March",
+      "sep": "September",
+      "april": "April",
+      "aug": "August",
+      "nov": "November",
+      "feb": "February",
+      "oct": "October",
+      "jan": "January"
     }
   }
 }

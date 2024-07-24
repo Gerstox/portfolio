@@ -12,9 +12,10 @@ export default function Header() {
         G
       </span>
       <div className="flex gap-4">
+        <LocaleSwitcher className="block lg:hidden"  />
         <DarkModeButton className="block lg:hidden" />
         <Navigation />
-        <LocaleSwitcher />
+        <LocaleSwitcher className="hidden lg:block" />
         <DarkModeButton className="hidden lg:block" />
       </div>
     </div>

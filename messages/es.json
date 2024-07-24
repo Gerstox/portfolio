@@ -1,5 +1,5 @@
 {
-    "LocaleSwitcher": {
+  "LocaleSwitcher": {
     "label": "Cambiar lenguaje",
     "locale": "{locale, select, es {🇪🇸 Español} en {🇺🇸 English} other {Desconocido}}"
   },
@@ -32,8 +32,99 @@
 
   "DownloadCVComponent": {
     "button": {
-        "text": "Descargar CV",
-        "tooltip": "Descargar CV"
+      "text": "Descargar CV",
+      "tooltip": "Descargar CV"
+    }
+  },
+
+  "ProjectsComponent": {
+    "title": "Proyectos"
+  },
+
+  "SkillsComponent": {
+    "title": "Habilidades",
+    "databases": "Base de datos",
+    "knowledge": "Otros conocimientos",
+    "advanced": "Avanzado",
+    "intermediate": "Intermedio"
+  },
+
+  "ExperienceComponent": {
+    "title": "Experiencia",
+    "fullstack": "Desarrollador Full Stack",
+    "frontend": "Desarrollador Front End",
+    "backend": "Desarrollador Back End",
+    "analyst": "Analista Programador",
+    "freelance": {
+      "p1": "Desarrollo de microservicios para aplicación de gestion de cuentas bancarias.",
+      "p2": "Desarrollo de web para servicios de streaming tales como Netflix, Disney y más.",
+      "stack": "Java, Spring Boot, ReactJS, NextJS, TailwindCSS, MySQL"
+    },
+    "rootstack": {
+      "p1": "Desarrollo de funcionalidad para web gubernamental usando, Python con Flask, PHP Legacy y Laravel.",
+      "p2": "Desarrollo de Ecommerce, usando Python 3 con Odoo.",
+      "stack": "Python, Flask, PHP, Laravel, C#, .NET Framework Drupal, Laravel, MySQL"
+    },
+    "messangi": {
+      "p1": "Desarrollo de interfaces de usuarios de sistema de mensajería online, usando Angular y Angular Material.",
+      "stack": "Javascript, Angular, Angular Material"
+    },
+    "mobius": {
+      "p1": "Desarrollo de interfaces y lógica de negocios para sistema de control y administración de repuestos para automóviles, usando PHP con Laravel",
+      "stack": "PHP, Laravel, MySQL"
+    },
+    "galac": {
+      "p1": "Desarrollo y soporte de funcionalidades a sistema administrativo contable",
+      "stack": "Visual Basic 6, C#, .NET Framework, Raw SQL, SQL server"
+    },
+    "binaural": {
+      "p1": "Desarrollo de tienda online para empresa de distribución de alimentos, usando Python con Odoo y OpenStreetMap.",
+      "p2": "Desarrollo de funcionalidades para aplicación web de compra y venta de inmuebles, usando Angular, NodeJS, MongoDB, Express y OpenStreetMap.",
+      "stack": "PHP, Python, Flask, Django, Odoo, OpenStreetMap, NodeJS, Express, Angular, MySQL, PostgreSQL, MongoDB"
+    }
+  },
+
+  "EducationComponent": {
+    "title": "Educación",
+    "university": "Universidad Centro Occidental 'Lisandro Alvarado’",
+    "profession": "Maestría en Ciencias, Ingeniería en Informática."
+  },
+
+  "CertificationsComponent": {
+    "title": "Certificaciones",
+    "certs": {
+      "c1": "Java Spring Security: Autenticación y Seguridad Web",
+      "c2": "Java Spring Data JPA: Bases de Datos",
+      "c3": "Java Spring",
+      "c4": "Java SE Orientado a Objetos",
+      "c5": "Introducción a Java SE",
+      "c6": "Java SE Persistencia de Datos"
+    }
+  },
+
+  "ContactComponent": {
+    "title": "Contacto",
+    "subtitle": "y redes sociales"
+  },
+
+  "FooterComponent": {
+    "developedby": "Desarrollado por",
+    "rights": "© 2024 Todos los derechos reservados"
+  },
+
+  "Common": {
+    "months": {
+      "currently": "Actualidad",
+      "may": "Mayo",
+      "march": "Marzo",
+      "sep": "Septiembre",
+      "april": "Abril",
+      "aug": "Agosto",
+      "nov": "Noviembre",
+      "feb": "Febrero",
+      "oct": "Octubre",
+      "jan": "Enero"
+
     }
   }
 }
